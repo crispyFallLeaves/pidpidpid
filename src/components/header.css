@@ -23,8 +23,8 @@
 }
 
 .header-logo-text:hover {
-  box-shadow: inset 250px 0 0 0 rgb(188, 119, 204);
-  color: white;
+    box-shadow: inset 250px 0 0 0 rgb(188, 119, 204);
+    color: white;
 }
 
 .header-about-text {
@@ -36,7 +36,15 @@
 }
 
 .header-about-text:hover {
-  color: white;
+    color: white;
 }
 
 
+
+.header-title {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}

@@ -13,20 +13,20 @@ function HomePage() {
             <Header />
             <div className='thumbnail-images-container'>
                 <div className='combined-sim-img-container'>
-                    <Link to="http://localhost:5173/pidsim" >
+                    <Link to="/pidsim" >
                         <img className='pid-thumbnail' src={pidPlaceholder} />
                     </Link>
                 </div>
                 <div className='seperate-sim-img-container'>
-                    <Link to="http://localhost:5173/psim" >
+                    <Link to="/psim" >
                         <img className='p-sim-thumbnail' src={pPlaceholder} />
                     </Link>
                     <img src={plus} className='homepage-plus'></img>
-                    <Link to="http://localhost:5173/isim" >
+                    <Link to="/isim" >
                         <img className='i-sim-thumbnail' src={iPlaceholder} />
                     </Link>
                     <img src={plus} className='homepage-plus'></img>
-                    <Link to="http://localhost:5173/dsim" >
+                    <Link to="/dsim" >
                         <img className='d-sim-thumbnail' src={dPlaceholder} />
                     </Link>
                 </div>

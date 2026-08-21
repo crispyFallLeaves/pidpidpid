@@ -6,13 +6,13 @@ import "./about.css"
 function About() {
     return (
         <>
-            <Header />
+            <Header title="about"/>
 
             <div className='about-text'>
                 <div className='about-info'>a website about PID</div>
                 <div className='about-dev-name'>made by Daniel 10w (vrc) </div>
                 <Link to='https://github.com/crispyFallLeaves'>
-                    <div>github: crispyfallleaves</div>
+                    <div>github: crispyFallLeaves</div>
                 </Link>
             </div>
             <ReturnToHome />
