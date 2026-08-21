@@ -47,3 +47,19 @@
 .d-sim-thumbnail:hover {
     filter: hue-rotate(-50deg);
 }
+
+.home-pidsim-button {
+    border: none;
+    font-size: 150px;
+    font-family: 'Jersey 10', system-ui;
+    color: rgb(49, 2, 63);
+    background-color: rgb(113, 55, 149);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+.home-pidsim-button:hover {
+    filter: hue-rotate(-20deg);
+}

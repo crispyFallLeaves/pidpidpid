@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import pPlaceholder from '../images/pPlaceholder.png'
 import iPlaceholder from '../images/iPlaceholder.png'
 import dPlaceholder from '../images/dPlaceholder.png'
-import pidPlaceholder from '../images/pidPlaceholder.png'
+// import pidPlaceholder from '../images/pidPlaceholder.png'
 import plus from '../images/plus.png'
 import Header from '../components/header'
 import './homepage.css'
@@ -15,7 +15,8 @@ function HomePage() {
                 <div className='thumbnail-images-container'>
                     <div className='combined-sim-img-container'>
                         <Link to="/pidsim" >
-                            <img className='pid-thumbnail' src={pidPlaceholder} />
+                            {/* <img className='pid-thumbnail' src={pidPlaceholder} /> */}
+                            <button className='home-pidsim-button'>SIMULATOR</button>
                         </Link>
                     </div>
                     <div className='seperate-sim-img-container'>
