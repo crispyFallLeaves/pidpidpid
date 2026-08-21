@@ -11,26 +11,28 @@ function HomePage() {
     return (
         <>
             <Header />
-            <div className='thumbnail-images-container'>
-                <div className='combined-sim-img-container'>
-                    <Link to="/pidsim" >
-                        <img className='pid-thumbnail' src={pidPlaceholder} />
-                    </Link>
-                </div>
-                <div className='seperate-sim-img-container'>
-                    <Link to="/psim" >
-                        <img className='p-sim-thumbnail' src={pPlaceholder} />
-                    </Link>
-                    <img src={plus} className='homepage-plus'></img>
-                    <Link to="/isim" >
-                        <img className='i-sim-thumbnail' src={iPlaceholder} />
-                    </Link>
-                    <img src={plus} className='homepage-plus'></img>
-                    <Link to="/dsim" >
-                        <img className='d-sim-thumbnail' src={dPlaceholder} />
-                    </Link>
-                </div>
-            </div >
+            <div className='homepage-images'>
+                <div className='thumbnail-images-container'>
+                    <div className='combined-sim-img-container'>
+                        <Link to="/pidsim" >
+                            <img className='pid-thumbnail' src={pidPlaceholder} />
+                        </Link>
+                    </div>
+                    <div className='seperate-sim-img-container'>
+                        <Link to="/psim" >
+                            <img className='p-sim-thumbnail' src={pPlaceholder} />
+                        </Link>
+                        <img src={plus} className='homepage-plus'></img>
+                        <Link to="/isim" >
+                            <img className='i-sim-thumbnail' src={iPlaceholder} />
+                        </Link>
+                        <img src={plus} className='homepage-plus'></img>
+                        <Link to="/dsim" >
+                            <img className='d-sim-thumbnail' src={dPlaceholder} />
+                        </Link>
+                    </div>
+                </div >
+            </div>
         </>);
 }
 
