@@ -1,0 +1,42 @@
+.header {
+    background-color: rgb(49, 2, 63);
+    font-family: 'Jersey 10', system-ui;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-text-link {
+    text-decoration: none;
+}
+
+.header-about-text-link {
+    text-decoration: none;
+}
+
+.header-logo-text {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.header-logo-text:hover {
+  box-shadow: inset 250px 0 0 0 rgb(188, 119, 204);
+  color: white;
+}
+
+.header-about-text {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header-about-text:hover {
+  color: white;
+}
+
+

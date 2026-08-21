@@ -1,0 +1,46 @@
+.pid-thumbnail {
+    padding-top: 150px;
+    width: 350px;
+}
+
+.seperate-sim-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.p-sim-thumbnail {
+    width: 250px;
+    padding-right: 20px;
+    transition: filter 0.3s ease;
+}
+
+.i-sim-thumbnail {
+    width: 250px;
+    transition: filter 0.3s ease;
+
+}
+
+.d-sim-thumbnail {
+    width: 250px;
+    padding-left: 20px;
+    transition: filter 0.3s ease;
+}
+
+.homepage-plus {
+    padding-bottom: 20px;
+    transition: filter 0.3s ease;
+}
+
+.p-sim-thumbnail:hover {
+    filter: hue-rotate(-50deg);
+}
+
+.i-sim-thumbnail:hover {
+    filter: hue-rotate(-50deg);
+}
+
+.d-sim-thumbnail:hover {
+    filter: hue-rotate(-50deg);
+}

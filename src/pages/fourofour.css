@@ -1,0 +1,10 @@
+
+
+.no-page-found-text{
+    font-size: 70px;
+    font-family: 'Jersey 10', system-ui;
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}

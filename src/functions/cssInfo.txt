@@ -1,0 +1,6 @@
+dark mode bg (index - 37): #16171d
+light mode bg (index - 4): #fff
+
+base color: rgb(49, 2, 63)
+second color: rgb(188, 119, 204);
+font-family: 'Jersey 10', system-ui;

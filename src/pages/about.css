@@ -1,0 +1,17 @@
+.about-text {
+    font-family: 'Jersey 10', system-ui;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.about-info {
+    color: rgb(188, 119, 204);
+}
+
+.about-dev-name {
+    color: blueviolet
+}
