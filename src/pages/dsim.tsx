@@ -44,10 +44,10 @@ function dsim({page, setPage}: dsimProps) {
         integral = 0;
         if (error is outside useful range)
             integral = 0;
-            derivative = error – prevError;
-            prevError = error;
-            speed = error*kP + integral*kI + derivative*kD;
-            wait 15 mSec;
+        derivative = error – prevError;
+        prevError = error;
+        speed = error*kP + integral*kI + derivative*kD;
+        wait 15 mSec;
     }
 }" />
             </div>
