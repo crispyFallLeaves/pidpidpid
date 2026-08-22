@@ -20,15 +20,15 @@ function HomePage() {
                         </Link>
                     </div>
                     <div className='seperate-sim-img-container'>
-                        <Link to="/psim" >
+                        <Link to="/proportional" >
                             <img className='p-sim-thumbnail' src={pPlaceholder} />
                         </Link>
                         <img src={plus} className='homepage-plus'></img>
-                        <Link to="/isim" >
+                        <Link to="/integral" >
                             <img className='i-sim-thumbnail' src={iPlaceholder} />
                         </Link>
                         <img src={plus} className='homepage-plus'></img>
-                        <Link to="/dsim" >
+                        <Link to="/derivative" >
                             <img className='d-sim-thumbnail' src={dPlaceholder} />
                         </Link>
                     </div>

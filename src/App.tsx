@@ -15,9 +15,9 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route path='/about' element={<About />} />
-      <Route path='/psim' element={<Psim />} />
-      <Route path='/isim' element={<Isim />} />
-      <Route path='/dsim' element={<Dsim />} />
+      <Route path='/proportional' element={<Psim />} />
+      <Route path='/integral' element={<Isim />} />
+      <Route path='/derivative' element={<Dsim />} />
       <Route path='/pidsim' element={<PIDsim />} />
       <Route path='*' element={<FouroFour />} />
       
