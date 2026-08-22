@@ -1,0 +1,86 @@
+[class^="proportional-text-explaination"] {
+    font-family: 'Jersey 10', system-ui;
+    font-size: 30px;
+    background-color: #16171d;
+    border: none;
+    width: 1000px;
+    resize: none;
+}
+
+[class^="psim-page"] {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+[class^="psim-page"]:hover {
+
+    color: purple;
+}
+
+.proportional-text-explaination1 {
+    margin-top: 50px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.proportional-text-explaination2 {
+    height: 200px;
+    margin-top: 10px;
+}
+
+.proportional-text-explaination3 {
+    color: rgb(188, 119, 204);
+    height: 200px;
+    margin-top: 10px;
+}
+
+.proportional-text-explaination4 {
+    height: 80px;
+    margin-top: 30px;
+}
+
+.proportional-text-explaination5 {
+    height: 50px;
+    margin-top: 30px;
+    color: rgb(188, 119, 204);
+}
+
+.proportional-text-explaination6 {
+    height: 250px;
+}
+
+.proportional-text-explaination7 {
+    height: 50px;
+    color: rgb(188, 119, 204);
+}
+
+.proportional-text-explaination8 {
+    height: 150px;
+    margin-top: 30px;
+}
+
+.proportional-text-explaination9 {
+    height: 80px;
+}
+
+.proportional-text-explaination10 {
+    height: 250px;
+    margin-top: 30px;
+    color: rgb(188, 119, 204);
+}
+
+
+.psim-page-numbers {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Jersey 10', system-ui;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+.psim-page-purple {
+    color: rgb(188, 119, 204);
+}

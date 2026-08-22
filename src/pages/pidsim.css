@@ -1,0 +1,49 @@
+.pidsim-container {
+    font-family: 'Jersey 10', system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pidsim-container input[type="range"] {
+    width: 320px;
+    cursor: pointer;
+    accent-color: rgb(188, 119, 204);
+    ;
+}
+
+.pidsim-display {
+    background-color: lavender;
+}
+
+.pidsim-top-area {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.pidsim-container button {
+    border: none;
+
+    font-family: 'Jersey 10', system-ui;
+    margin-top: 50px;
+    color: rgb(188, 119, 204);
+    margin-bottom: 40px;
+    font-size: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.pidsim-reset-button {
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.pidsim-container button:hover {
+    color: rgb(218, 149, 234);
+}
+
+.psim-purple {
+    color: purple
+}
