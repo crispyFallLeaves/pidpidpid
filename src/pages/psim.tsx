@@ -1,10 +1,13 @@
 import Header from "../components/header"
 
-import { useState } from 'react'
 import './psim.css'
-function Psim() {
-    const [page, setPage] = useState(1);
 
+type psimProps = {
+    page: number;
+    setPage: (value: number) => void;
+}
+
+function Psim({page, setPage}: psimProps) {
     let returndiv = null;
 
     if (page === 1) {
@@ -40,25 +43,34 @@ function Psim() {
     let returnpagediv = null;
     if (page == 1) {
         returnpagediv =
-            <div className='psim-page-numbers'>
-                <p className='psim-page-purple' onClick={() => { setPage(1) }}>1</p>
-                <p className='psim-page' onClick={() => { setPage(2) }}>2</p>
-                <p className='psim-page' onClick={() => { setPage(3) }}>3</p>
+            <div className='psim-bottom'>
+                <div className='psim-info-source'>Credit: George Gillard's Introduction to PID Controllers</div>
+                <div className='psim-page-numbers'>
+                    <p className='psim-page-purple' onClick={() => { setPage(1) }}>1</p>
+                    <p className='psim-page' onClick={() => { setPage(2) }}>2</p>
+                    <p className='psim-page' onClick={() => { setPage(3) }}>3</p>
+                </div>
             </div>
     } if (page == 2) {
         returnpagediv =
-            <div className='psim-page-numbers'>
-                <p className='psim-page' onClick={() => { setPage(1) }}>1</p>
-                <p className='psim-page-purple' onClick={() => { setPage(2) }}>2</p>
-                <p className='psim-page' onClick={() => { setPage(3) }}>3</p>
+            <div className='psim-bottom'>
+                <div className='psim-info-source'>Credit: George Gillard's Introduction to PID Controllers</div>
+                <div className='psim-page-numbers'>
+                    <p className='psim-page' onClick={() => { setPage(1) }}>1</p>
+                    <p className='psim-page-purple' onClick={() => { setPage(2) }}>2</p>
+                    <p className='psim-page' onClick={() => { setPage(3) }}>3</p>
+                </div>
             </div>
     }
     if (page == 3) {
         returnpagediv =
-            <div className='psim-page-numbers'>
-                <p className='psim-page' onClick={() => { setPage(1) }}>1</p>
-                <p className='psim-page' onClick={() => { setPage(2) }}>2</p>
-                <p className='psim-page-purple' onClick={() => { setPage(3) }}>3</p>
+            <div className='psim-bottom'>
+                <div className='psim-info-source'>Credit: George Gillard's Introduction to PID Controllers</div>
+                <div className='psim-page-numbers'>
+                    <p className='psim-page' onClick={() => { setPage(1) }}>1</p>
+                    <p className='psim-page' onClick={() => { setPage(2) }}>2</p>
+                    <p className='psim-page-purple' onClick={() => { setPage(3) }}>3</p>
+                </div>
             </div>
     }
     return (

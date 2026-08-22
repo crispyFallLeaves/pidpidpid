@@ -29,9 +29,10 @@
     margin-top: 50px;
     color: rgb(188, 119, 204);
     margin-bottom: 40px;
-    font-size: 50px;
-    padding-right: 10px;
-    padding-left: 10px;
+    font-size: 55px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: rgb(94, 66, 102);
 }
 
 .pidsim-reset-button {

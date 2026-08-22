@@ -1,4 +1,4 @@
-[class^="proportional-text-explaination"] {
+[class^="derivative-text-explaination"] {
     font-family: 'Jersey 10', system-ui;
     font-size: 30px;
     background-color: #16171d;
@@ -7,71 +7,82 @@
     resize: none;
 }
 
-[class^="psim-page"] {
+[class^="dsim-page"] {
     margin-left: 20px;
     margin-right: 20px;
     color: white;
 }
 
-[class^="psim-page"]:hover {
+[class^="dsim-page"]:hover {
 
     color: purple;
 }
 
-.proportional-text-explaination1 {
+.derivative-pic {
+    margin-top: 30px;
+    width: 500px;
+}
+
+.derivative-text-explainationshort {
+    height: 50px;
+    color: rgb(188, 119, 204);
+}
+
+.derivative-text-explaination1 {
     margin-top: 50px;
-    height: 150px;
+    height: 250px;
     margin-top: 30px;
 }
 
-.proportional-text-explaination2 {
+.derivative-text-explaination2 {
     height: 200px;
     margin-top: 10px;
 }
 
-.proportional-text-explaination3 {
+.derivative-text-explaination3 {
     color: rgb(188, 119, 204);
-    height: 120px;
+    height: 200px;
     margin-top: 10px;
 }
 
-.proportional-text-explaination4 {
-    height: 80px;
-    margin-top: 30px;
-}
-
-.proportional-text-explaination5 {
+.derivative-text-explaination4 {
     height: 50px;
     margin-top: 30px;
-    color: rgb(188, 119, 204);
 }
 
-.proportional-text-explaination6 {
+.derivative-text-explaination5 {
+    height: 50px;
+}
+
+.derivative-text-explaination6 {
     height: 250px;
 }
 
-.proportional-text-explaination7 {
+.derivative-text-explaination7 {
     height: 50px;
     color: rgb(188, 119, 204);
 }
 
-.proportional-text-explaination8 {
-    height: 150px;
-    margin-top: 30px;
-}
-
-.proportional-text-explaination9 {
+.derivative-text-explaination8 {
     height: 80px;
 }
 
-.proportional-text-explaination10 {
-    height: 250px;
+.derivative-text-explaination9 {
+    height: 120px;
+}
+
+.derivative-text-explaination10 {
+    height: 80px;
     margin-top: 30px;
+}
+
+.derivative-text-explaination11 {
+    height: 450px;
     color: rgb(188, 119, 204);
 }
 
 
-.psim-page-numbers {
+.dsim-page-numbers {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -81,17 +92,17 @@
     margin-bottom: 50px;
 }
 
-.psim-page-purple {
+.dsim-page-purple {
     color: rgb(188, 119, 204);
 }
 
-.psim-bottom {
+.dsim-bottom {
     display: flex;
     flex-direction: column;
     margin-top: auto;
 }
 
-.psim-info-source {
+.dsim-info-source {
     font-family: 'Jersey 10', system-ui;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;

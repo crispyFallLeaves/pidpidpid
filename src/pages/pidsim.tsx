@@ -45,6 +45,7 @@ function PIDsim() {
 
         let x: number = 0
         let v: number = 0
+        let prevV: number = v
         let error: number = inputs.current.targetPos - x;
         let prevError: number = error;
         let frame: number = 0;
@@ -74,6 +75,10 @@ function PIDsim() {
                 const INTEGRAL_MAX = 1
                 integral = clamp(integral, -INTEGRAL_MAX, INTEGRAL_MAX);
                 derivative = (error - prevError) / dt;
+
+                if (Math.sign(prevError) !== Math.sign(error)) {
+                    integral = 0;
+                }
 
                 if (count % 1 == 0) {
                     power = kP * 2 * error + kD * derivative + kI * integral;
@@ -123,7 +128,6 @@ function PIDsim() {
 
                 x += v * dt;
 
-
                 console.log(`x = ${displayNum(x)}`);
                 console.log(`v = ${displayNum(v)}`);
                 console.log(`error = ${displayNum(error)}`);
@@ -139,6 +143,11 @@ function PIDsim() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.fillStyle = "rgb(220, 208, 255)";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
+            if (Math.abs(v) >= Math.abs(prevV) && Math.sign(v) === Math.sign(prevV)) {
+                ctx.fillStyle = "rgb(11, 69, 44)";
+            } else {
+                ctx.fillStyle = "rgb(123, 9, 9)";
+            }
             ctx.fillStyle = "rgb(87, 47, 109)";
             ctx.fillRect(8 * x + 50, 200, 40, 40);
             ctx.fillStyle = "rgb(157, 103, 186)";
@@ -147,7 +156,7 @@ function PIDsim() {
             ctx.fillText(`x = ${Math.round(x * 100) / 100}`, 160, 40);
             ctx.fillText(`settle time: ${Math.round(timetomove * (100)) / 100}`, canvas.width / 2 - 100, 40);
             ctx.fillText(`t = ${Math.round(elapsed * (100)) / 100}`, canvas.width - 200, 40);
-
+            prevV = v;
             frame = requestAnimationFrame(step);
         }
 
