@@ -59,8 +59,8 @@ function dsim({page, setPage}: dsimProps) {
             <div className='dsim-bottom'>
                 <div className='dsim-info-source'>Credit: George Gillard's Introduction to PID Controllers</div>
                 <div className='dsim-page-numbers'>
-                    <p className='dsim-page' onClick={() => { setPage(1) }}>1</p>
-                    <p className='dsim-page-purple' onClick={() => { setPage(2) }}>2</p>
+                    <p className='dsim-page-purple' onClick={() => { setPage(1) }}>1</p>
+                    <p className='dsim-page' onClick={() => { setPage(2) }}>2</p>
                     <p className='dsim-page' onClick={() => { setPage(3) }}>3</p>
                 </div>
             </div>
@@ -81,8 +81,8 @@ function dsim({page, setPage}: dsimProps) {
                 <div className='dsim-info-source'>Credit: George Gillard's Introduction to PID Controllers</div>
                 <div className='dsim-page-numbers'>
                     <p className='dsim-page' onClick={() => { setPage(1) }}>1</p>
-                    <p className='dsim-page-purple' onClick={() => { setPage(2) }}>2</p>
-                    <p className='dsim-page' onClick={() => { setPage(3) }}>3</p>
+                    <p className='dsim-page' onClick={() => { setPage(2) }}>2</p>
+                    <p className='dsim-page-purple' onClick={() => { setPage(3) }}>3</p>
                 </div>
             </div>
     }
