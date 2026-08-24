@@ -19,7 +19,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         error = setpoint – sensor value;
         integral = integral + error;
         if (error = 0 or passes setpoint)
-        integral = 0;
+            integral = 0;
         if (error is outside useful range)
             integral = 0;
         derivative = error – prevError;
